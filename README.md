@@ -19,9 +19,9 @@ Here you will see the code for the completed app. So please use that as a refere
   - Writing Data
 
 ## Additional Documents
-- Slides
+### Slides
 https://docs.google.com/presentation/d/10V8AK9cPbLDjLZo_iT8ou3WNzpr3li2ruyLzdMckl4A/edit?usp=sharing
-- Notes
+### Notes
 https://docs.google.com/document/d/1wLK2J4ellzFUL4FKXBii2sA0cHJhBls_7QBEV8qcRZ8/edit?usp=sharing
 
 ## Useful Links
