@@ -1,8 +1,7 @@
 autoFillDate();
 autoFillAMPM();
 
-var db = firebase.firestore()
-console.log(db)
+var db = firebase.firestore();
 
 function autoFillDate() {
   var today = new Date();
