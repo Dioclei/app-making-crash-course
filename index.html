@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Recording</title>
+  <!-- Our Styles -->
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <!-- Bootstrap Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+  <h1 class="heading mb-3">RECORD YOUR TEMPERATURE</h1>
+  <img class="image mb-3" src="img/thermometer.png" alt="thermometer">
+
+  <div class="mb-3">
+    <label class="form-label">Select Date and Time</label>
+    <div class="row">
+      <div class="col-8">
+        <input class="form-control" id="date" type="date">
+      </div>
+      <div class="col">
+        <select class="form-select" id="ampm">
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="temperature">Enter Temperature</label>
+    <input class="form-control" id="temperature" type="number" step="0.1">
+  </div>
+  <button class="btn btn-warning" onclick="submitData()">Submit</button>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+  
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDEsUOz-IvoFMAhWYxIGZ0ng639yCyuNAQ",
+      authDomain: "appppppppp-3ee57.firebaseapp.com",
+      projectId: "appppppppp-3ee57",
+      storageBucket: "appppppppp-3ee57.appspot.com",
+      messagingSenderId: "2710329197",
+      appId: "1:2710329197:web:b026b1a27e25802c24ac64"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="main.js"></script>
+</body>
+</html>
