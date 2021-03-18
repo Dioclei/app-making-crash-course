@@ -25,11 +25,30 @@ https://docs.google.com/presentation/d/10V8AK9cPbLDjLZo_iT8ou3WNzpr3li2ruyLzdMck
 https://docs.google.com/document/d/1wLK2J4ellzFUL4FKXBii2sA0cHJhBls_7QBEV8qcRZ8/edit?usp=sharing
 
 ## Useful Links
-- Bootstrap Documentation:
+### Bootstrap Documentation
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
-- MDN Documentation (Probably explains things better than I do!):
+### MDN Documentation
+(Probably explains things better than I do!)
+</br>
 https://developer.mozilla.org/en-US/
-  - Their full javascript guide:
-  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
-- Firebase Cloud Firestore Documentation:
+#### Their full javascript guide:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+### Firebase Cloud Firestore Documentation
 https://firebase.google.com/docs/firestore
+
+## Other Tutorials and Guides
+These guides are not made by me, and deserve your attention should you pursue web development further.
+### Traversy Media
+I find that his videos explain things very clearly and precisely.
+#### Beginner HTML
+https://youtu.be/UB1O30fR-EE
+#### Beginner CSS
+https://youtu.be/yfoY53QXEnI
+#### Beginner JS
+https://youtu.be/hdI2bqOjy3c
+### FreeCodeCamp
+This is where I obtained most of my HTML, CSS and javascript skills, as I used this site extensively before NS.
+#### Responsive Web Design
+https://www.freecodecamp.org/learn/responsive-web-design/
+#### Javascript Algorithms and Data Structures
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
