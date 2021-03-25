@@ -1,47 +1,42 @@
-autoFillDate();
-autoFillAMPM();
-
 var db = firebase.firestore();
 
-function autoFillDate() {
-  var today = new Date();
+// Autofill Date
+var today = new Date();
 
-  var day = today.getDate();
-  var month = today.getMonth(); // January is 0
-  var year = today.getFullYear();
+var day = today.getDate();
+var month = today.getMonth(); // January is 0
+var year = today.getFullYear();
 
-  var dayString = day.toString();
-  // pad the number with a 0 in front if the day is single digit
-  if (dayString.length === 1) {
-    dayString = '0' + dayString;
-  }
-
-  var monthString = (month + 1).toString();
-  // pad the number with a 0 in front if the month is single digit
-  if (monthString.length === 1) {
-    monthString = '0' + monthString;
-  }
-
-  var yearString = year.toString();
-
-  var value = yearString + '-' + monthString + '-' + dayString;
-
-  document.getElementById('date').value = value;
+var dayString = day.toString();
+// pad the number with a 0 in front if the day is single digit
+if (dayString.length === 1) {
+  dayString = '0' + dayString;
 }
 
-function autoFillAMPM() {
-  var today = new Date();
-  
-  var hour = today.getHours();
-
-  if (hour <= 12) {
-    // AM
-    document.getElementById('ampm').value = 'AM';
-  } else {
-    // PM
-    document.getElementById('ampm').value = 'PM';
-  }
+var monthString = (month + 1).toString();
+// pad the number with a 0 in front if the month is single digit
+if (monthString.length === 1) {
+  monthString = '0' + monthString;
 }
+
+var yearString = year.toString();
+var value = yearString + '-' + monthString + '-' + dayString;
+
+document.getElementById('date').value = value;
+
+// Autofill AMPM
+
+var hour = today.getHours();
+
+if (hour <= 12) {
+  // AM
+  document.getElementById('ampm').value = 'AM';
+} else {
+  // PM
+  document.getElementById('ampm').value = 'PM';
+}
+
+// Submission of Temperature
 
 function submitData() {
   // 1. Obtain date & AM/PM
