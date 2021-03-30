@@ -28,7 +28,7 @@ document.getElementById('date').value = value;
 
 var hour = today.getHours();
 
-if (hour <= 12) {
+if (hour < 12) {
   // AM
   document.getElementById('ampm').value = 'AM';
 } else {
@@ -51,5 +51,7 @@ function submitData() {
     [ampmSelected]: temperatureFloat
   }, { merge: true }).then(function () {
     alert('successfully updated temperature!');
+  }).catch(function (error) {
+    console.error(error);
   })
 }
