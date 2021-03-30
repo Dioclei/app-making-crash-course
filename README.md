@@ -2,7 +2,7 @@
 
 Welcome!
 
-Here you will see the code for the completed app. So please use that as a reference. You can download the starter html file under the **example** folder to get yourself a headstart.
+Here you will see the code for the completed app. Click on the big green download button to download the code! (for your reference)
 
 ## Basic Concepts
 - HTML
